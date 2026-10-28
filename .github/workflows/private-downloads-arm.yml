@@ -1,6 +1,9 @@
 name: Private downloads ARM64 build
 
 on:
+  push:
+    branches:
+      - ademariag/private-downloads-ci
   workflow_dispatch:
 
 permissions:
